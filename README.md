@@ -7,7 +7,7 @@ It searches for jobs on **Indeed**, clicks on each job card, extracts detailed j
 
 ---
 
-## 🚀 Features
+## Features
 - Dynamic keyword and location search
 - Captcha support (manual pause if encountered)
 - Clicks into each job listing to extract:
@@ -23,7 +23,7 @@ It searches for jobs on **Indeed**, clicks on each job card, extracts detailed j
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 job_scraper/
@@ -41,7 +41,7 @@ job_scraper/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -67,7 +67,7 @@ job_scraper/
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 When you run the scraper:
 - You will be prompted to **solve any captcha manually** if it appears.
@@ -76,14 +76,14 @@ When you run the scraper:
 
 ---
 
-## 📦 Example Output (CSV Columns)
+## Example Output (CSV Columns)
 
 | title | company | salary | address | work_location | description |
 |:------|:--------|:-------|:--------|:--------------|:------------|
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 - Python 3.8+
 - Google Chrome installed
 - ChromeDriver (managed automatically via `webdriver-manager`)
@@ -96,7 +96,7 @@ Python packages used:
 
 ---
 
-## ⚡ Future Improvements
+## Future Improvements
 - Automatic handling of pagination (scraping multiple pages)
 - Parallel scraping (for faster results)
 - Detect and skip sponsored ads
