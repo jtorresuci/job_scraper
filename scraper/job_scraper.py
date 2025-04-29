@@ -27,7 +27,7 @@ def scrape_jobs(keyword, location):
         address = ""
         work_location = ""
         description = ""
-        
+
         try:
             driver.execute_script("arguments[0].scrollIntoView();", card)
             time.sleep(0.5)
@@ -74,16 +74,6 @@ def scrape_jobs(keyword, location):
             except Exception as e:
                 print(f"Error getting company: {e}")
                 company = ""
-
-
-
-
-            # # Extract salary
-            # try:
-            #     salary_element = driver.find_element(By.CSS_SELECTOR, "span.js-match-insights-provider-1vjtffa")
-            #     salary = salary_element.text
-            # except Exception:
-            #     salary = ""
 
             # Extract salary
             try:
