@@ -8,8 +8,10 @@ def search_jobs(driver, keyword, location):
     # Find and fill in the job title
     what_input = driver.find_element(By.ID, "text-input-what")
     what_input.clear()
+    time.sleep(2)                            # tiny wait (optional)
     what_input.send_keys(Keys.CONTROL + "a")  # select all
     what_input.send_keys(Keys.DELETE)         # delete
+    time.sleep(2)                            # tiny wait (optional)
     what_input.send_keys(keyword)
     
 
