@@ -31,7 +31,6 @@ job_scraper/
 │   ├── browser.py       # Launches and configures Selenium WebDriver
 │   ├── job_scraper.py    # Main scraping logic
 │   ├── search.py         # Searching for job listings
-│   ├── utils.py          # Helper functions (optional for splitting duties, waits, etc.)
 ├── scripts/
 │   └── run_scraper.py    # Entry point to run the scraper
 ├── data/                 # Folder where CSV output files are saved
