@@ -33,6 +33,7 @@ def scrape_jobs(keyword, location):
             time.sleep(0.5)
             card.click()
 
+
             # Extract job title
             try:
                 try:
@@ -75,6 +76,7 @@ def scrape_jobs(keyword, location):
                 print(f"Error getting company: {e}")
                 company = ""
 
+
             # Extract salary
             try:
                 WebDriverWait(driver, 5).until(
@@ -108,6 +110,7 @@ def scrape_jobs(keyword, location):
                         address = ""
             except Exception:
                 address = ""
+
 
             # Extract work location
             try:
