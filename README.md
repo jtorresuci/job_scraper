@@ -20,6 +20,7 @@ It searches for jobs on **Indeed**, clicks on each job card, extracts detailed j
 - Auto-scrolls to each listing for stability
 - Saves extracted job listings into a structured CSV file
 - Handles page changes in layout automatically (fallbacks included)
+- Local AI model classification for overview, responsibilities, requirements, or other can be found here: https://github.com/jtorresuci/local-ai-job-classifier/tree/master
 
 ---
 
@@ -102,7 +103,7 @@ Python packages used:
 - Detect and skip sponsored ads
 - Handle missing data even more gracefully
 - Export into databases (like SQLite) instead of just CSV
-- Integrate a **local AI model** to classify job descriptions, duties, and requirements (e.g., categorize seniority level, job type, industry sector)
+- Integrate a **local AI model** (https://github.com/jtorresuci/local-ai-job-classifier/tree/master) to classify job descriptions, duties, and requirements (e.g., categorize seniority level, job type, industry sector)
 
 ---
 
