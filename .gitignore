@@ -20,7 +20,6 @@ venv/
 drivers/
 
 # Data output
-data/*.csv
 data/*.json
 
 # Logs
